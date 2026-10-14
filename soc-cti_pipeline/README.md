@@ -72,7 +72,7 @@ This sample PDF had an early defective design that was modified. Find an more re
 *Data is from a different time*
 
 
-> 📄 **Better sample report:** [`docs/sanitized_threat_report_2.pdf`](docs/sanitized_threat_report_2.pdf)
+> 📄 **Better sample report:** [`docs/sanitized_siem_report_2.pdf`](docs/sanitized_siem_report_2.pdf)
 
 
 Internal host names and IP addresses were removed.
