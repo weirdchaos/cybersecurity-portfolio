@@ -72,7 +72,8 @@ The agent compiles every triage cycle into a structured, executive-ready threat 
 
 
 This sample PDF had an early defective design that was modified. Find an more recent sample here:
-*Data is from a different time*
+
+*(Data is from a different time)*
 
 
 > 📄 **Better sample report:** [`docs/sanitized_siem_report_2.pdf`](docs/sanitized_siem_report_2.pdf)
