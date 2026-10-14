@@ -65,11 +65,15 @@ The agent compiles every triage cycle into a structured, executive-ready threat 
 | **Threat Actor Dossiers** | Reverse DNS, ASN ownership, abuse scores, and targeting intent |
 | **Remediation Plan** | Copy-paste firewall rules (OPNsense alias syntax, iptables drops, WAF commands) |
 
-> 📄 **View the full sample report:** [`docs/sanitized_threat_report_1.pdf`](docs/)
+> 📄 **View the full sample report:** [`docs/sanitized_threat_report_1.pdf`](docs/sanitized_threat_report_1.pdf)
+
 
 This sample PDF had an early defective design that was modified. Find an more recent sample here:
+*Data is from a different time*
 
-> 📄 **Better sample report:** [`docs/sanitized_threat_report_2.pdf`](docs/)
+
+> 📄 **Better sample report:** [`docs/sanitized_threat_report_2.pdf`](docs/sanitized_threat_report_2.pdf)
+
 
 Internal host names and IP addresses were removed.
 
