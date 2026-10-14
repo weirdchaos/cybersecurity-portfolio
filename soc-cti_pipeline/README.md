@@ -18,12 +18,14 @@ An end-to-end detection, correlation, and automated incident triage pipeline tha
 
 
 
+
 ## Key Engineering Highlights
 
 * **Automated Threat Intelligence Enrichment:** Queries OpenCTI, AbuseIPDB, and RDAP to automatically score inbound adversary infrastructure and classify scanning patterns (e.g., PHP webshell reconnaissance clusters, Tor nodes, bulletproof VPS).
 * **Context-Aware Alert Deduplication:** Distinguishes between genuine attacks and benign administrative activity (e.g., suppressing `PSScriptPolicyTest` artifacts from PowerShell 5.1 and OneDrive process hooks into Explorer) to prevent alert fatigue.
 * **Telemetry Diagnostics & Gap Detection:** Actively tracks sensor health, identifying dropped telemetry buffers (e.g., Sysmon driver queue overflows during software install storms) to highlight blind spots.
 * **Push-Button Containment Artifacts:** Translates triaged intelligence directly into deployable network blocks: OPNsense firewall aliases, BunkerWeb WAF deny lists, and raw iptables rules.
+
 
 
 
@@ -54,6 +56,7 @@ During the run, the pipeline flagged an endpoint detection gap on workstation `W
 
 
 
+
 ## Sample Deliverable
 
 The agent compiles every triage cycle into a structured, executive-ready threat intelligence report:
@@ -76,6 +79,7 @@ This sample PDF had an early defective design that was modified. Find an more re
 
 
 Internal host names and IP addresses were removed.
+
 
 
 
