@@ -16,7 +16,7 @@ An end-to-end detection, correlation, and automated incident triage pipeline tha
 
 ![](img/soc_triage_diagram.png)
 
----
+
 
 ## Key Engineering Highlights
 
@@ -25,7 +25,7 @@ An end-to-end detection, correlation, and automated incident triage pipeline tha
 * **Telemetry Diagnostics & Gap Detection:** Actively tracks sensor health, identifying dropped telemetry buffers (e.g., Sysmon driver queue overflows during software install storms) to highlight blind spots.
 * **Push-Button Containment Artifacts:** Translates triaged intelligence directly into deployable network blocks: OPNsense firewall aliases, BunkerWeb WAF deny lists, and raw iptables rules.
 
----
+
 
 ## Real-World Case Study Walkthrough
 
@@ -52,7 +52,7 @@ During the run, the pipeline flagged an endpoint detection gap on workstation `W
 * **Triage Finding:** Rule 100210 matched an internal file SHA256 indicator (`8dd1ebb0...21fc3`, max score 50).
 * **Human-in-the-Loop Escalation:** While the hash returned clean against external feeds (suspected stale feed IOC), the pipeline flagged the exact timestamp (`15:22 CEST`) and target workstation for immediate manual analyst pivoting.
 
----
+
 
 ## Sample Deliverable
 
@@ -77,7 +77,7 @@ This sample PDF had an early defective design that was modified. Find an more re
 
 Internal host names and IP addresses were removed.
 
----
+
 
 ## Containment Output Example
 
